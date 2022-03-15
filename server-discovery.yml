@@ -1,13 +1,2 @@
 server:
   port: 8761 # port d’écoute conseillé par Spring
-eureka:
-  client:
-    register-with-eureka: false
-    fetch-registry: true
-
-logging:
-  level:
-    com:
-      netflix:
-        eureka: OFF
-        discovery: OFF
